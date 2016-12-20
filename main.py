@@ -34,7 +34,7 @@ class Monitor(FigureCanvas):
 
         self.fig.canvas.draw()
 
-        self.timer = self.startTimer(100)
+        self.timer = self.startTimer(300)
 
 
     def timerEvent(self, evt):
